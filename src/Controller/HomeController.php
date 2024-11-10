@@ -14,4 +14,15 @@ class HomeController
 			'<html><body>Bienvenue dans mon Premier projet Symfony 7.1 !</body></html>'
 		);
 	}
+
+	#[Route("/user/{name} " , defaults: [ 'name' => 'john' ])]
+	public function show($name): Response
+	{
+		$title=$name;
+
+		return new Response(
+			'<html><body>Bienvenue, '.$title.'</body></html>'
+		);
+	}
+
 }
