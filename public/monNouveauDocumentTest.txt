@@ -1,1 +1,2 @@
-Ajout d'une modification
+Insertion d'une ligne avant la première
+Ajout d'une modification sur cette ligne
