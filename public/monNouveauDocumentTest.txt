@@ -1,2 +1,3 @@
 Insertion d'une ligne avant la première
-Ajout d'une modification sur cette ligne
+Ajout d'une modification sur cette ligne avec PHPStorm
+Et ajout d'une 3è ligne
